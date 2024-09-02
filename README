@@ -1,0 +1,25 @@
+Aluna: Beatriz M. Reichert
+Atividade Extra: Implementação de uma Fila Estática Circular Heterogênea Genérica  (tipada na aplicação)
+
+A implementação foi testada na máquina ens1. O código está executando sem problemas.
+
+A aplicação tem como objetivo a interação com o usuário. Este terá o seguinte menu
+de opções:
+    0.  Sair
+    1.  Inserir aluno (enfileirar struct)
+    2.  Inserir nota do aluno (enfileirar float)
+    3.  Inserir conceito do aluno (enfileirar caracter)
+    4.  Inserir nota do aluno (enfileirar int)
+    5.  Inserir matéria (enfileirar string)  
+    6.  Desenfileirar
+    7.  Ver elemento do início da fila
+    8.  Verificar se a fila está cheia
+    9.  Verificar se a fila está vazia
+
+A ideia é que a fila contenha alguma informação escolar. Ou seja, pode conter dados
+de alunos, notas de um aluno, conceito de um aluno, ou matérias do curso. Dessa forma
+é possível trabalhar com vários tipos de dados.
+
+Comando para executar na máquina ens1:
+    gcc -Wall -o exec Aplicacao.c Fila.c
+    ./exec
